@@ -1,0 +1,51 @@
+
+
+#commentImage{
+    height: 55px;
+    width: 55px;
+    align-self: start;
+    margin: 2%;
+}
+
+#commentCard {
+    
+    margin-top: 1%;
+    border-color: transparent;
+    border-radius: 25px;
+    width: 80%;
+    border-style: ridge;
+    
+    
+}
+
+#editOptions {
+    align-self: self-end;
+    margin: 1%;
+    margin-bottom: 0%;
+}
+
+#editOptions {
+    margin: 1%;
+    margin-bottom: 0%;
+    float: right;
+
+}
+
+#commentEditInput{
+    border-color: whitesmoke;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+#commentEditConfirm{
+    width: 15%;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#commentEditCancelButton{
+    float: right;
+    margin-right: 1%;
+}
+

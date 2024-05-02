@@ -1,0 +1,78 @@
+/* SignIn.css */
+#signInBody {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+#signInForm {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    align-items: flex-start; /* Align children at the start of the cross axis (vertically) */
+}
+
+h2 {
+    color: cadetblue; /* Matched color with the header in the sign-up page */
+}
+h1.header{
+    margin-inline-start: -54px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666666;
+}
+
+#signinInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.alert {
+    margin-top: 16px;
+    color: #d9534f;
+}
+
+#btt-st{
+    width: 100%;
+    padding: 10px;
+    background-color: #2dd27d; /* Matched color with the button in the sign-up page */
+    border: 1px solid black;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#btt-st:hover {
+    background-color: green;
+}
+#r-c{
+    width: 90%;
+}
+
+#pageHead {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 75px;
+    color: cadetblue;
+}

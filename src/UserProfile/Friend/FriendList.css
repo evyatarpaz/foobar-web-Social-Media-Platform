@@ -1,0 +1,15 @@
+.FriendList {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.FriendReqList {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 10px;
+}

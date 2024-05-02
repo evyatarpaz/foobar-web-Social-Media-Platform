@@ -1,0 +1,119 @@
+#postRectangle {
+    background-color: whitesmoke;
+    padding: 0%;
+    border-radius: 25px;
+}
+
+.Post {
+    margin-bottom: 50px;
+    margin-top: 25px;
+    color: black;
+}
+
+
+.rounded-circle {
+    height: 90px;
+    width: 90px;
+    align-self: start;
+    margin-left: 0%;
+}
+
+.fs-7 {
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.btn-outline-success {
+    width: 33%;
+}
+
+#commentsButton {
+    border-style: none;
+    padding: 0%;
+    background-color: transparent;
+    color: black;
+    float: right;
+    margin-right: 1%;
+}
+
+#addCommentModal {
+    padding: 100px;
+    border-radius: 25%;
+}
+
+
+#editOptions {
+    margin: 1%;
+    margin-bottom: 0%;
+    float: right;
+    align-self: self-end;
+
+}
+
+#profileNavigate:hover {
+    cursor: pointer;
+}
+
+
+
+
+#postCard {
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    border-style: ridge;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#imageContainer {
+    flex: 1;
+    overflow: hidden;
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+#postImage {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+}
+
+#postEditConfirm {
+    float: right;
+    width: 20%;
+}
+
+#postEditCancelButton {
+    float: right;
+    margin-right: 1%;
+    margin-bottom: 5px;
+}
+
+#btnGroupButton {
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+#contentContainer {
+    padding: 0%;
+}
+
+#divider {
+    width: 97%;
+    margin: 0 auto;
+}
+
+#postContainer {
+    padding: 0%;
+}

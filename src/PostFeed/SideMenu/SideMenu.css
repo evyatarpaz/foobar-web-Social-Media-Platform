@@ -1,0 +1,27 @@
+
+.list-group-item:hover {
+    cursor: pointer;
+    background-color: rgb(247, 255, 247);;
+    border-radius: 20px;
+}
+
+.list-group-item {
+    font-size: xx-large ;
+    padding-top: 70px;
+    margin-top: 10px;
+    
+}
+
+#sideMenu{
+margin-top: 105px;
+width: 250 px;
+flex:auto;
+}
+
+#profilePic{
+    height: 45px;
+    width: 45px;
+}
+
+
+

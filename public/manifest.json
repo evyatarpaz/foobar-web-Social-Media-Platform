@@ -1,0 +1,22 @@
+{
+    "name": "FooBar",
+    "short_name": "Foo",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "description": "A description of your app.",
+    "icons": [
+      {
+        "src": "path/to/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "path/to/large-icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

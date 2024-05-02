@@ -1,0 +1,135 @@
+#signUpBody {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signUpContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#pageHead {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 75px;
+    color: cadetblue;
+}
+
+.registration-card {
+    background-color: #fff;
+    width: 390px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 10px !important;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3) !important;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(173, 191, 230) !important;
+    padding: 3px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    position: relative;
+}
+#profile{
+    padding: 10px;
+    width: 100%;
+    padding-left: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+#imag-icon{
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+}
+.profile-w{
+    cursor: pointer;
+    display: flex;
+}
+  
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+}
+
+#signUpButton {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #2dd27d;
+    border: 1px solid black;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.uploaded-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 27%;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#image{
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.click-here {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.click-here:hover {
+    color: #007bff;
+}

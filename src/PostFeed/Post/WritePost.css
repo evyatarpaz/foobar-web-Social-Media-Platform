@@ -1,0 +1,44 @@
+#writePostRectangle{
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style:ridge;
+    box-shadow: 2px 2px 2px gray;
+    background-color: rgb(232, 253, 232);
+    color: black;
+}
+
+.postUpFont {
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#uploadInput{
+    border-radius: 100px;
+    padding: 2%;
+    
+}
+
+#uploadInput:hover{
+    border-radius: 100px;
+    padding: 2%;
+    border-color: rgb(232, 253, 232);
+    
+}
+
+#postUploadButton{
+    align-items: end;
+    margin-top: 1%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#postInput{
+    width: 95%;
+    margin: 2%;
+    border-color: whitesmoke;
+    border-radius: 15px;
+    padding: 1%;
+}
